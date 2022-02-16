@@ -14,6 +14,8 @@
 		FEC610F127BC19C800E4D954 /* newApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC610EF27BC19C800E4D954 /* newApp.xcdatamodeld */; };
 		FEC610F327BC19CB00E4D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC610F227BC19CB00E4D954 /* Assets.xcassets */; };
 		FEC610F627BC19CB00E4D954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC610F427BC19CB00E4D954 /* LaunchScreen.storyboard */; };
+		FEC6111E27BD9BF200E4D954 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6111D27BD9BF200E4D954 /* User.swift */; };
+		FEC6112127BD9C5800E4D954 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6112027BD9C5800E4D954 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FEC610F227BC19CB00E4D954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC610F527BC19CB00E4D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC610F727BC19CB00E4D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC6111D27BD9BF200E4D954 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FEC6112027BD9C5800E4D954 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		FEC610E527BC19C800E4D954 /* newApp */ = {
 			isa = PBXGroup;
 			children = (
+				FEC6111F27BD9C4800E4D954 /* Helper */,
+				FEC6111C27BD9BC700E4D954 /* Models */,
 				FEC610E627BC19C800E4D954 /* AppDelegate.swift */,
 				FEC610E827BC19C800E4D954 /* SceneDelegate.swift */,
 				FEC610EA27BC19C800E4D954 /* ViewController.swift */,
@@ -68,6 +74,22 @@
 				FEC610EF27BC19C800E4D954 /* newApp.xcdatamodeld */,
 			);
 			path = newApp;
+			sourceTree = "<group>";
+		};
+		FEC6111C27BD9BC700E4D954 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEC6111D27BD9BF200E4D954 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEC6111F27BD9C4800E4D954 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FEC6112027BD9C5800E4D954 /* DBHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC610EB27BC19C800E4D954 /* ViewController.swift in Sources */,
+				FEC6112127BD9C5800E4D954 /* DBHelper.swift in Sources */,
 				FEC610E727BC19C800E4D954 /* AppDelegate.swift in Sources */,
 				FEC610F127BC19C800E4D954 /* newApp.xcdatamodeld in Sources */,
+				FEC6111E27BD9BF200E4D954 /* User.swift in Sources */,
 				FEC610E927BC19C800E4D954 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
